@@ -37,6 +37,13 @@
     "color": "#55adfa",
     "fontColor": "#4d58f3"
 
+  },
+  {
+    "id": "Karolmolina",
+    "nombre": "Karol Molina",
+    "correo": "karol.molinaga@cetcolsubsidio.edu.co",
+    "programa": "Desarrollo de Software",
+    "color": "purple"
   }
 
 ]
