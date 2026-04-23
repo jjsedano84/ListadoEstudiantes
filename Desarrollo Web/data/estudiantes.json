@@ -38,33 +38,13 @@
     "fontColor": "#4d58f3"
 
   },
-
   {
-    "id": "TheJackKT",
-    "nombre": "Javier Andrés Coronado Pulido",
-    "correo": "javier.coronadopu@cetcolsubsidio.edu.co",
+    "id": "andreamolinaj8-byte",
+    "nombre": "Jazmin paola ",
+    "correo": "jazmin.chaconmo@cetcolsubsidio.edu.co",
     "programa": "Desarrollo de Software",
-    "color": "#cf4311",
-    "fontColor": "#a3360f"
+    "color": " purple"
 
-  },
-   {
-    "id": "juanmgv5",
-    "nombre": "Juan Manuel Garzon Velasquez",
-    "correo": "juan.garzonve@cetcolsubsidio.edu.co",
-    "programa": "Desarrollo de Software",
-    "color": "#24a647",
-    "fontColor": "#000000"
-
-  },
-
-  {
-    "id": "WtSlayer",
-    "nombre": "Wilmer Pérez",
-    "correo": "wilmer.perezol@cetcolsubsidio.edu.co",
-    "programa":"Desarrollo de Software",
-    "color": "#8C8C8C",
-    "fontColor": "#690015"
   }
 
 ]
