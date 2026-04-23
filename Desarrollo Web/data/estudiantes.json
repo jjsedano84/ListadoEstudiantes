@@ -81,7 +81,14 @@
     "programa": "Desarrollo de Software",
     "color": " purple"
 
-  }
+  },
+{
+ "id": "Kevin",
+    "nombre": "Kevin",
+    "correo": "Kevinandrespierngaorda@gmail.com",
+    "programa": "Desarrollo de Software",
+    "color": "#55adfa",
+    "fontColor": "#4d58f3"
 
-
+}
 ]
