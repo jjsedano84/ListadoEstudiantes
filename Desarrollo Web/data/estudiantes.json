@@ -39,12 +39,21 @@
 
   },
   {
-    "id": "Kevin",
-    "nombre": "Kevin",
-    "correo": "Kevinandrespierngaorda@gmail.com",
+    "id": "TheJackKT",
+    "nombre": "Javier Andrés Coronado Pulido",
+    "correo": "javier.coronadopu@cetcolsubsidio.edu.co",
     "programa": "Desarrollo de Software",
-    "color": "#55adfa",
-    "fontColor": "#4d58f3"
+    "color": "#cf4311",
+    "fontColor": "#a3360f"
+
+  },
+   {
+    "id": "juanmgv5",
+    "nombre": "Juan Manuel Garzon Velasquez",
+    "correo": "juan.garzonve@cetcolsubsidio.edu.co",
+    "programa": "Desarrollo de Software",
+    "color": "#24a647",
+    "fontColor": "#000000"
 
   },
 
