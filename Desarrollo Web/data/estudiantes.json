@@ -90,5 +90,14 @@
     "color": "#55adfa",
     "fontColor": "#4d58f3"
 
-}
+},
+{
+  "id": "nicolasbonilla34-lag",
+    "nombre": "Nicolas Bonilla",
+    "correo": "nicolasbonilla34@gmail.com",
+    "programa": "Desarrollo de Software",
+    "color": "blue"
+    
+  }
+
 ]
