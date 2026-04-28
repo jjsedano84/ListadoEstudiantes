@@ -1,15 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi pagina</title>
-</head>
-<body>
-    <h1>Hola, esta es mi pagina</h1>
-    <p>Estoy probando para subir al branch</p>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Bonita</title>
 
-    <button>Haz clic aqui</button>
-    
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .card{
+      background:white;
+      padding:30px;
+      border-radius:15px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.2);
+      text-align:center;
+      width:300px;
+    }
+
+    h1{
+      color:#333;
+    }
+
+    p{
+      color:#666;
+    }
+
+    img{
+      width:100%;
+      border-radius:10px;
+      margin:15px 0;
+    }
+
+    button{
+      background:#4facfe;
+      color:white;
+      border:none;
+      padding:10px 20px;
+      border-radius:8px;
+      cursor:pointer;
+      font-size:16px;
+    }
+
+    button:hover{
+      background:#2f80ed;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>Mi Página</h1>
+    <p>Probando subir al branch con estilo</p>
+
+    <img src="https://picsum.photos/300/200" alt="Imagen bonita">
+
+    <button>Ver más</button>
+  </div>
+
 </body>
 </html>
