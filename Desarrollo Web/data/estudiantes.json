@@ -82,6 +82,15 @@
     "color": " purple"
 
   },
+  {
+    "id": "elsergiocorredor-create-byten",
+    "nombre": "Sergio Corredor ",
+    "correo": "sergio.corredorca@cetcolsubsidio.edu.co",
+    "programa": "Desarrollo de Software",
+    "color": " yellow",
+    "backround-color": "yellow"
+
+  },
 {
  "id": "Kevin",
     "nombre": "Kevin",
