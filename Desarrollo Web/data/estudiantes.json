@@ -90,5 +90,13 @@
     "color": "#55adfa",
     "fontColor": "#4d58f3"
 
+},
+  {
+ "id": "Martha",
+    "nombre": "Martha",
+    "correo": "justinicovejaranomarthacecilia@gmail.com",
+    "programa": "Desarrollo de Software",
+    "color": "pink"
+
 }
 ]
