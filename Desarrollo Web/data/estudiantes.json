@@ -92,12 +92,11 @@
 
 },
 {
- "id": "Kevin",
-    "nombre": "Kevin",
-    "correo": "Kevinandrespierngaorda@gmail.com",
+ "id": "Brayan",
+    "nombre": "Brayan Riveros",
+    "correo": "Brayanet95@gmail.com",
     "programa": "Desarrollo de Software",
-    "color": "#55adfa",
-    "fontColor": "#4d58f3"
+    "color": "red"
 
 }
 ]
