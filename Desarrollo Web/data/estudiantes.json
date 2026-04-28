@@ -90,5 +90,17 @@
     "color": "#55adfa",
     "fontColor": "#4d58f3"
 
+},
+{
+
+   "id": "Sebitas",
+    "nombre": "Sebastian",
+    "correo": "sebastiancontrerasgil@gmail.com",
+    "programa": "Desarrollo de Software",
+    "color": "red",
+    "fontColor": "#722F37"
+
+
 }
+
 ]
