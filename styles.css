@@ -1,24 +1,39 @@
 body {
-    background-color: #2cbb2c56;
+    background-color: cornsilk;
     font-family: cursive;
     display: flex;
     flex-direction: column;
     
 }
 h1{
-    color: #3ebe1e;
+    color: black;
     font-size: 36px;
     font-family: poppins, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 20px;
 }
 button {
-    background-color: #25bd8f;
+    background-color: black;
     color: white;
-    border: none;
+    border: 10px;
     padding: 10px 30px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 8px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 9px gray ;
+    margin-left: 100px;
+}
+p{
+    margin-left: 20%;
+}
+img {
+    width: 200px;
+    height: auto;
     margin-top: 20px;
+    margin-left: 350px;
+    margin-right: 100px;
+    border: 20px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 9px gray ;
 }
