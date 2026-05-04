@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #0511c2;
+    color: #8b0808;
+}
+
+
+header {
+    background-color: #595e8d;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+
+section {
+    background-color: rgb(226, 225, 228);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #01000a;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+
+section:last-child {
+    text-align: center;
+    font-weight: bold;
+}
