@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+</head>
+
+ <div class="card encabezado">
+        <h2>Mi Portafolio</h2>
+        <h3>Kevin Andrés Piernagorda Flórez</h3>
+        <p>
+        Tengo 18 años y soy estudiante de Codificación de Software en la TEC ALIANZA.
+        Me apasiona el mundo de la tecnología, razón por la cual decidí estudiar Programación.
+        Me gustaría centrarme en la programación web y quiero aprender bastante en cada clase.
+        </p>
+    </div>
+
+    <div class="grid-dos">
+
+        <div class="card">
+            <h3 class="seccion">Mis Gustos</h3>
+            <ul>
+                <li><strong>Comida favorita:</strong> Arroz con pollo, bandeja paisa, sancocho y lasagna</li>
+                <li><strong>Música favorita:</strong> Canto Gregoriano, rock y metal</li>
+                <li><strong>Película favorita:</strong> La Pasión de Cristo</li>
+                <li><strong>Actividad de interés:</strong> Asistir a la Sagrada Eucaristía</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="seccion">Mis Habilidades</h3>
+            <ul>
+                <li><strong>Deportes:</strong> Montar bicicleta y jugar basketball</li>
+                <li><strong>Estudio:</strong> Teología, filosofía y lenguas modernas</li>
+                <li><strong>Interés especial:</strong> Lenguas modernas (Orden Sacerdotal)</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="card">
+        <h3 class="seccion">Contacto Personal</h3>
+        <div class="contacto-grid">
+            <div class="contacto-item">
+                <div class="contacto-label">Correo personal</div>
+                <div class="contacto-valor">Kevinandrespiernagorda@gmail.com</div>
+            </div>
+            <div class="contacto-item">
+                <div class="contacto-label">Correo institucional</div>
+                <div class="contacto-valor">Kevin.piernagordaflo@cetcolsubsidio.edu.co</div>
+            </div>
+            <div class="contacto-item">
+                <div class="contacto-label">Celular</div>
+                <div class="contacto-valor">314 384 6329</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>   
+
+ <style>
+        body {
+            background: #0a1628;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #e0eaf8;
+            padding: 30px;
+            margin: 0;
+        }
+
+        .card {
+            background: #112240;
+            border: 1px solid #1e3a5f;
+            border-radius: 15px;
+            padding: 30px 35px;
+            margin-bottom: 20px;
+        }
+
+        .encabezado {
+            text-align: center;
+            border-left: 4px solid #4a90d9;
+        }
+
+        .encabezado h2 {
+            color: #a8c8f0;
+            font-size: 32px;
+            font-weight: 500;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin: 0 0 6px;
+        }
+
+        .encabezado h3 {
+            color: #6ea8d8;
+            font-weight: 400;
+            margin: 0 0 18px;
+        }
+
+        .encabezado p {
+            color: #b0c4de;
+            font-size: 15px;
+            line-height: 1.8;
+            max-width: 620px;
+            margin: 0 auto;
+        }
+
+        .grid-dos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        h3.seccion {
+            color: #a8c8f0;
+            font-size: 16px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #1e3a5f;
+            padding-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            color: #b0c4de;
+            padding: 10px 0;
+            border-bottom: 1px solid #1a2f4a;
+            font-size: 15px;
+        }
+
+        ul li:last-child { border-bottom: none; }
+
+        ul li strong { color: #6ea8d8; }
+
+        .contacto-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 14px;
+        }
+
+        .contacto-item {
+            background: #0d1f3c;
+            border: 1px solid #1e3a5f;
+            border-radius: 10px;
+            padding: 14px 16px;
+        }
+
+        .contacto-label {
+            font-size: 11px;
+            color: #4a6fa5;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+
+        .contacto-valor {
+            font-size: 13px;
+            color: #4fc3f7;
+        }
+    </style>
+
+
