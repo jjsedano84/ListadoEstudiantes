@@ -12,7 +12,6 @@ hr{
     border-top: 2px solid #333;
     margin: 20px 0;
 }
-
 header{
     text-align: center;
     padding: 20px;
@@ -26,12 +25,10 @@ h2{
     width: 25%;
     margin: 20px;
 }
-
 strong{
     border-bottom: 2px solid #bbb7b5;
     padding-bottom: 5px;
 }
-
 
 .bloqueGustos{
     display: grid;
@@ -40,9 +37,7 @@ strong{
     margin: 20px 0;
     border-radius: 8px;
     gap: 20px;
-    
 }
-
 .item{
     background-color: #efeff0;
     padding: 30px 55px 10px 80px;
@@ -58,10 +53,9 @@ strong{
     border-radius: 8px;
     gap: 20px;
 }
-
 .habilidades, .intereses{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 3fr);
     gap: 7px;
 }
 .habilidades h4, .intereses h4{
@@ -69,7 +63,29 @@ strong{
     margin-bottom: 10px;
 }
 
-
-.contacto{
-    text-align: left;
+.habilidades div, .intereses div {
+    background: #efeff0;
+    border: 2px solid #06402B;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    min-height: 40px;
 }
+.hab1{ grid-column: span 2}
+.hab2{ grid-column: span 1; grid-row: span 2}
+.hab3{ grid-row: span 2;}
+.hab4{ grid-column: span 1}
+.hab5{ grid-column: span 2}
+
+.int1{ grid-column: span 1; grid-row: span 2}
+.int2{ grid-column: span 2}
+.int3{ grid-row: span 2}
+.int4{ grid-row: span 1}
+.int5{ grid-column: span 1}
+.int6{ grid-column: span 1}
+
+.contacto{ text-align: left; }
