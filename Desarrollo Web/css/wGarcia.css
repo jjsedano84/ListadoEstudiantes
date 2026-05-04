@@ -1,0 +1,31 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F9F6EE;
+    color: #333;
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+}
+
+hr{
+    width: 100%;
+    border-top: 2px solid #333;
+    margin: 20px 0;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    color: #06402B;
+    border-bottom: 2px solid #3D0158;
+    padding-bottom: 5px;
+    width: 25%;
+    margin: 20px;
+}
+
+.contacto{
+    text-align: left;
+}
