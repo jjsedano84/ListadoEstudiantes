@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portadofolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Karol Andrea Molina Garcia</h1>
+        <h2>Mi portafolio</h2>
+    </header>
+
+    <div class="container">
+        <section>
+            <h3>Sobre mi</h3>
+            <p>Soy una estudiante a quien le gusta la tecnologia,los videojuegos y el desarrollo web.  Me gusta programar,crear proyectos y mejorar constantemente mis habilidades</p>
+        </section>
+
+        <section>
+            <h3>Mis gustos</h3>
+            <ul>
+                <li>Musica: Rap, pop rock latino</li>
+                <li>Comida: Costillas bbq, Arroz con pollo</li>
+                <li>Pelicula: 2012</li>
+                <li>Actividad: Practicar voley</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Mis habilidades</h3>
+            <ul>
+                <li>Deportes: Practicar Voley, Jugar Basquetbol</li>
+                <li>Tecnologia: Robotica</li>
+                <li>Estudio: Diseño Grafico</li>
+                <li>Actividad de interes: Jugar Videojuegos</li>
+            </ul>
+        </section>
+
+        <section class="Contacto">
+            <h3>Contacto</h3>
+            <ul>
+                <li>Correo: andrea.molina.J8@gmail.com</li>
+                <li>Correo Institucional: karol.molinaga@cetcolsubsidio.edu.co</li>
+                <li>Numero: 3229102060</li>
+            </ul>
+
+        </section>
+    </div>
+</body>
+
+<style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: radial-gradient(circle at top, #0a0a0f, #000000);
+            color: #ffffff;
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(90deg, #000000, #0f0f2d);
+            border-bottom: 2px solid #00ffff;
+            box-shadow: 0 0 20px #00ffff;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        header h2 {
+            color: #aaa;
+            margin-top: 10px;
+        }
+
+        /* CONTENEDOR */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: rgba(255,255,255,0.05);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,255,255,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 25px #00ffff;
+        }
+
+        h3 {
+            color: #00ffff;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            padding: 8px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        ul li:hover {
+            color: #00ffff;
+        }
+
+        /* CONTACTO */
+        .contacto {
+            text-align: center;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 15px;
+            border-top: 1px solid #00ffff;
+            margin-top: 20px;
+            color: #777;
+        }
+
+    </style>
+</html>
